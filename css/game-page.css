@@ -8,7 +8,7 @@
   height: auto;
   position: relative;
   text-align: center;
-  background: url(../img/bg-title-about-er.jpg) center/cover no-repeat;
+  background: url(../img/game/bg-title-about-er.jpg) center/cover no-repeat ;
 }
 .text-section h2{
   font-size: 32px;
@@ -149,7 +149,7 @@
   width: 100%;
   position: relative;
   text-align: center;
-  background: url(../img/bg-game-mode.jpg) center/cover no-repeat;
+  background: url(../img/game/bg-game-mode.jpg) center/cover no-repeat;
 }
 .carickter-box{
   position: relative;
@@ -206,7 +206,7 @@
   .game-mode{
     width: 100%;
     position: relative;
-    background: url(../img/box-gamemode.png) center/cover no-repeat;
+    background: url(../img/game/box-gamemode.png) center/cover no-repeat;
   }
   .mode{
     padding-top: 30px;
