@@ -1,0 +1,263 @@
+/* main{
+  width: 100%;
+} */
+
+ /* 게임 소개 */
+.text-section{
+  width: 100%;
+  height: auto;
+  position: relative;
+  text-align: center;
+  background: url(../img/bg-title-about-er.jpg) center/cover no-repeat;
+}
+.text-section h2{
+  font-size: 32px;
+  font-weight: bold;
+  padding: 73px 0 30px;
+  color: #fff;
+}
+.text-section > p{
+  width: 100%;
+  font-size: 20px;
+  font-weight: 300;
+  color: #C4D8E0;
+}
+.text-section > .story-intro{
+  margin-bottom: 30px;
+}
+.text-section > .story-action{
+  padding-bottom: 30px;
+}
+/* 게임 소개 끝 */
+
+/* 유튜브 썸네일이나 영상넣을거*/
+.gaid-movies{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.gaid-boxs{
+  display: flex;
+  /* justify-content: center; */
+  align-items: flex-start;
+  gap: 106px;
+}
+.gaid-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+/* 유튜브 썸네일 */
+.youtube-thumb{
+  position: relative;
+  display: block;
+  cursor: pointer;
+}
+.youtube-thumb img{
+  width: 442px;
+  height: 271px;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+.youtube-thumb:hover img{
+  transform: scale(1.0);
+}
+
+/* 클릭 버튼 */
+.youtube-thumb .play-btn{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 169px;
+  height: 99px;
+  background: url(../img/youtube-thumb.png) center/cover no-repeat;
+  background-size: contain;
+  transform: translate(-50%, -50%);
+  /* cursor: pointer; */
+}
+.gaid-item >p{
+  margin-top: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  color: #fff;
+  font-size: 20px;
+  padding: 15px 1px;
+  background-color: #3A3434;
+  border-radius: 4px;
+}
+/* 유튜브 썸네일 끝 */
+
+/* 게임 설명 */
+.game-paly-section{
+  width: 100%;
+}
+.game-txt{
+  flex-direction: column;
+  padding: 30px 0 50px;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+.game-txt h2{
+  font-size: 32px;
+  font-weight: bold;
+  color: #FA5928;
+}
+.gaid-imgs{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 21px;
+}
+.gaid-show{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 364px;
+  height: 423px;
+  /* width: 100%; */
+}
+.gaid-show img{
+  width: 364px;
+  height: 205px;
+}
+.gaid-show h3{
+  align-self: flex-start;
+  text-align: left;
+  font-size: 24px;
+  margin: 20px 0px;
+  color: #000;
+}
+.gaid-show p{
+  font-size: 20px;
+  align-self: flex-start;
+  text-align: left;
+  color: #444;
+}
+/* 게임 설명 끝*/
+
+/* 캐릭터 소개 */
+.game-carick{
+  width: 100%;
+  position: relative;
+  text-align: center;
+  background: url(../img/bg-game-mode.jpg) center/cover no-repeat;
+}
+.carickter-box{
+  position: relative;
+  padding-top: 30px;
+}
+.carickter-box h2{
+  color: #E8E5E5;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.carickter-box > p:nth-of-type(1){
+  color: #D5C7C7;
+  margin-bottom: 30px;
+}
+.carickter-box > p:nth-of-type(2){
+  color: #FA5928;
+  font-size: 28px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+/* 이미지 더보기 버튼 */
+.img-wrapper{
+  position: relative;
+  display: inline-block;
+  width: 350px;
+  margin-bottom: 50px;
+}
+.img-wrapper img{
+  display: block;
+  width: 100%;
+  max-width: 349px;
+  height: 105px;
+  cursor: pointer;
+  transition: transform 0.25s ease;
+}
+.img-wrapper img:hover {
+  transform: scale(1.2);
+}
+.img-wrapper p{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  pointer-events: none;
+  }
+  /* 캐릭터 소개 끝! */
+
+  /* 게임모드 */
+  .game-mode{
+    width: 100%;
+    position: relative;
+    background: url(../img/box-gamemode.png) center/cover no-repeat;
+  }
+  .mode{
+    padding-top: 30px;
+    text-align: center;
+    align-items: center;
+  }
+  .mode h2{
+    font-size: 32px;
+    font-weight: bold;
+    color: #E8E5E5;
+    margin-bottom: 20px;
+  }
+  .mode p{
+    font-size: 24px;
+    font-weight: 300;
+    color: #D5C7C7;
+  }
+  
+  /* 게임모드 종류 */
+  .game-mode-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    list-style: none;
+    padding: 30px 0;
+    margin: 0 auto;
+    width: 80%;
+    justify-items: center;
+  }
+  .game-mode-list li{
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  .game-mode-list img{
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+  }
+  .game-mode-list p{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #000;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0;
+    border-radius: 10px;
+  }
