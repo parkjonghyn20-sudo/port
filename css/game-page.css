@@ -240,6 +240,12 @@
     position: relative;
     overflow: hidden;
     border-radius: 10px;
+    outline: 1px solid red;
+    cursor: pointer;
+    transition: transform 0.20s ease;
+  }
+  .game-mode-list li:hover{
+    transform: scale(1.1);
   }
   .game-mode-list img{
     width: 100%;
